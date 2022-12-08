@@ -7,7 +7,7 @@ import App from "./App";
 import "./styles/globals.css";
 
 // Change the network to the one you want to use: "mainnet-beta", "testnet", "devnet", "localhost" or your own RPC endpoint
-const network = "mainnet-beta";
+const network = "devnet";
 
 const container = document.getElementById("root");
 const root = createRoot(container);

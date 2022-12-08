@@ -24,6 +24,17 @@
   justify-content: center;
   flex-direction: column;
 }
+button {
+  background-color: #512da8;
+  color:white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+}
 
 .h1 {
   margin-bottom: 0px;
@@ -34,5 +45,5 @@
 }
 
 .lightPurple {
-  color: #e011a7;
+  color: #ada4ab;
 }
