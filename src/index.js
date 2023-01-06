@@ -4,8 +4,7 @@ import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
 import { ThirdwebProvider } from "@thirdweb-dev/react/solana";
 import reportWebVitals from "./reportWebVitals";
 import App from "./App";
-import "./styles/globals.css";
-
+import './index.css';
 // Change the network to the one you want to use: "mainnet-beta", "testnet", "devnet", "localhost" or your own RPC endpoint
 const network = "devnet";
 
