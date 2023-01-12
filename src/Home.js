@@ -1,6 +1,6 @@
 import "./App.css";
 import Bonks from "./Bonks";
-import logo from "./assets/logo.jpg";
+import logo from "./assets/banner2.jpg";
 import banner from "./assets/banner.png";
 import { useWallet } from "@solana/wallet-adapter-react";
 import {
@@ -123,18 +123,7 @@ function Home() {
                 <div className="mx-auto sm:mx-0" style={{}}>
                   Bonk
                 </div>
-                <div className="relative cursor-pointer flex my-auto items-center group mx-auto flex-col">
-                  <img
-                    src="https://famousfoxes.com/unlocked.630fa198.png"
-                    className="h-7 xs:h-8 sm:h-9 md:h-10 xl:h-11"
-                    style={{}}
-                  />
-                  <div className="absolute bottom-0 flex-col items-center hidden mb-6 group-hover:flex">
-                    <span className="w-32 relative z-10 p-2 text-xs leading-none text-white whitespace-no-wrap bg-black shadow-lg">
-                      No staked Bonk found!
-                    </span>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
